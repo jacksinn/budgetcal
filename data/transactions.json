@@ -1,0 +1,13 @@
+[
+  {
+    "Title": "Debit 1",
+    "Amount": 100.00,
+    "Type": "debit",
+    "Date": {
+      "Year": 2020,
+      "Month": 12,
+      "Day": 1,
+      "DayOfWeek": "Thursday"
+    }
+  }
+]
