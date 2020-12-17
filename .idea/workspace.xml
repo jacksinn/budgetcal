@@ -31,4 +31,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="393" width="665" height="334" key="#Updates" timestamp="1608223517679">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="622" y="393" width="665" height="334" key="#Updates/0.27.1920.1053@0.27.1920.1053" timestamp="1608223517679" />
+    <state x="640" y="280" width="630" height="553" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608223619482">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="640" y="280" width="630" height="553" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1608223619482" />
+  </component>
 </project>
