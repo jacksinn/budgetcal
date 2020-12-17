@@ -15,12 +15,33 @@ func main()  {
 
 	// Fetch today's budget information.
 	getTodaysBudget()
+
+	// Print this month's calendar
+	month := time.Now().Month()
+	day := time.Now().Day()
+	year := time.Now().Year()
+	weekday := time.Now().Weekday()
+	fmt.Println("Month", month)
+	fmt.Println("Day", day)
+	fmt.Println("Year", year)
+	fmt.Println("Weekday", weekday)
+
+
 }
 
 type Transaction struct {
 	Title string
 	Amount float32
 	Type string
+	Date TransactionTime
+
+}
+
+type TransactionTime struct {
+	Year int
+	Month int
+	Day int
+	DayOfWeek string
 }
 
 func getTodaysBudget() {
@@ -32,6 +53,12 @@ func getTodaysBudget() {
 	todaysCredits := Transaction{
 		Title:  "Person 1 Paycheck",
 		Amount: 1000,
+		Date: TransactionTime{
+			Year: 2020,
+			Month: 12,
+			Day: 1,
+			DayOfWeek: "Friday",
+		},
 	}
 
 	fmt.Println("Today's income:", todaysCredits)
